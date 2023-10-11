@@ -869,8 +869,8 @@ image_source="auto"
 # gNewSense, GNOME, GNU, GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HamoniKR, HarDClanZ, Hash,
 # Huayra, Hybrid, HydroOS, Hyperbola, iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, KaOS,
 # KDE, Kibojoe, Kogaion, Korora, KrassOS, KSLinux, Kubuntu, LainOS, LangitKetujuh, LaxerOS, LEDE, LibreELEC,
-# Linspire, Linux, Linux Lite, Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac,
-# Mageia, MagpieOS, Mandriva, Manjaro, MassOS, MatuusOS, Maui, Meowix, Mer, Minix, MIRACLE LINUX,
+# Linspire, Linux, Linux Lite, Linux Mint, Linux Mint Old, Live Raizo, LiveG OS, LMDE, Lubuntu, Lunar,
+# mac, Mageia, MagpieOS, Mandriva, Manjaro, MassOS, MatuusOS, Maui, Meowix, Mer, Minix, MIRACLE LINUX,
 # MX, Namib, NekOS, Neptune, NetBSD, Netrunner, Nitrux, NixOS, Nobara, NomadBSD, Nurunner, NuTyX,
 # Obarun, OBRevenge, OmniOS, Open Source Media Center, OpenBSD, openEuler, OpenIndiana, openKylin,
 # openmamba, OpenMandriva, OpenStage, openSUSE, openSUSE Leap, openSUSE Tumbleweed, OPNsense,
@@ -6359,9 +6359,9 @@ ASCII:
                                 Hyperbola, iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali,
                                 KaOS, KDE, Kibojoe, Kogaion, Korora, KrassOS, KSLinux, Kubuntu,
                                 LainOS, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux
-                                Lite, Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar,
-                                mac, Mageia, MagpieOS, Mandriva, Manjaro, MassOS, MatuusOS, Maui,
-                                Meowix, Mer, Minix, MIRACLE LINUX, MX, Namib, NekOS, Neptune,
+                                Lite, Linux Mint, Linux Mint Old, Live Raizo, LiveG OS, LMDE, Lubuntu,
+                                Lunar, mac, Mageia, MagpieOS, Mandriva, Manjaro, MassOS, MatuusOS,
+                                Maui, Meowix, Mer, Minix, MIRACLE LINUX, MX, Namib, NekOS, Neptune,
                                 NetBSD, Netrunner, Nitrux, NixOS, Nobara, NomadBSD, Nurunner, NuTyX,
                                 Obarun, OBRevenge, OmniOS, Open Source Media Center, OpenBSD,
                                 openEuler, OpenIndiana, openKylin, openmamba, OpenMandriva,
@@ -11116,6 +11116,32 @@ mMMMs  dMMMo sMMMMMMd yMMMd  sMMMm
       :yddh+`hMMMMMMN :yddy/`
              .hMMMMd:
                `..`
+EOF
+        ;;
+
+        "LiveG OS"* | "LiveG_OS"*)
+            set_colors 3 4
+            read -rd '' ascii_data <<'EOF'
+${c2}           `.:/lllll${c1}ggggg/:.
+${c2}        .:llllllllll${c1}gggggggggg:`
+${c2}      -lllllllllllll${c1}ggggggggggggg-
+${c2}    -lllllllllllllll${c1}ggggggggggggggg-
+${c2}   lllllllllllllllll${c1}gggggggggggggggggg
+${c2} `llllllllllllllllll${c1}gggggggggggggggggg`
+${c2} lllllllllllllllllll${c1}ggggggggggggggggggg
+${c2}-lllllllllllllllllll${c1}ggggggggggggggggggg-
+${c2}llllllllllllllllllll${c1}gggggggggggggggggggg
+${c2}llllllllllllllllllll${c1}gggggggggggggggggggg
+${c2}llllllllllllllllllllllllllllllllllllllll
+llllllllllllllllllllllllllllllllllllllll
+-llllllllllllllllllllllllllllllllllllll-
+ llllllllllllllllllllllllllllllllllllll
+ `llllllllllllllllllllllllllllllllllll
+   llllllllllllllllllllllllllllllllll
+    -llllllllllllllllllllllllllllll-
+      -llllllllllllllllllllllllll-
+        ./llllllllllllllllllll/.
+           `.:/llllllllll/:.`
 EOF
         ;;
 
